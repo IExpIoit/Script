@@ -1,0 +1,5 @@
+if game.PlaceId == 1554960397 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
+else
+    game.Players.LocalPlayer:Kick("Game Not Supported")
+end
